@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "engine": "Chromium 134 / Playwright 1.51",
+  "transport": "FastAPI TestClient intercept (not live TCP)",
+  "checks": [
+    "owner login",
+    "graph",
+    "hidden-link cards",
+    "source paths",
+    "exact demo2 upload and conversion",
+    "JSON download",
+    "job processing",
+    "bulk confirmation",
+    "natural-language draft and uncertainty",
+    "node editor",
+    "insights",
+    "mobile width",
+    "identity merge and undo",
+    "persisted lead review",
+    "timeline slider synchronized with graph",
+    "geographic markers",
+    "case brief",
+    "HTML report download",
+    "one-hop expansion"
+  ],
+  "page_errors": []
+}

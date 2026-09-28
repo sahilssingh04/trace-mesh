@@ -1,0 +1,1013 @@
+{
+  "entities": [
+    {
+      "id": "P001",
+      "label": "Arjun Mehta",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P001\", \"name\": \"Arjun Mehta\", \"aliases\": [\"A. Mehta\", \"Arjun M\"], \"age\": 34, \"city\": \"Kolkata\", \"phone_ids\": [\"PH001\", \"PH002\"], \"case_ids\": [\"C001\", \"C003\"]}"
+      }
+    },
+    {
+      "id": "P002",
+      "label": "Rohan Das",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P002\", \"name\": \"Rohan Das\", \"aliases\": [\"R. Das\", \"Rony\"], \"age\": 31, \"city\": \"Kolkata\", \"phone_ids\": [\"PH003\"], \"case_ids\": [\"C001\"]}"
+      }
+    },
+    {
+      "id": "P003",
+      "label": "Kabir Sen",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P003\", \"name\": \"Kabir Sen\", \"aliases\": [\"K. Sen\", \"Kabir\"], \"age\": 38, \"city\": \"Howrah\", \"phone_ids\": [\"PH004\"], \"case_ids\": [\"C001\", \"C002\"]}"
+      }
+    },
+    {
+      "id": "P004",
+      "label": "Vikram Roy",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P004\", \"name\": \"Vikram Roy\", \"aliases\": [\"V. Roy\"], \"age\": 42, \"city\": \"Kolkata\", \"phone_ids\": [\"PH005\"], \"case_ids\": [\"C002\"]}"
+      }
+    },
+    {
+      "id": "P005",
+      "label": "Neel Sharma",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P005\", \"name\": \"Neel Sharma\", \"aliases\": [\"N. Sharma\"], \"age\": 29, \"city\": \"Durgapur\", \"phone_ids\": [\"PH006\"], \"case_ids\": [\"C003\"]}"
+      }
+    },
+    {
+      "id": "P006",
+      "label": "Samar Gupta",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P006\", \"name\": \"Samar Gupta\", \"aliases\": [\"Sam Gupta\", \"S. Gupta\"], \"age\": 36, \"city\": \"Kolkata\", \"phone_ids\": [\"PH007\"], \"case_ids\": [\"C003\", \"C004\"]}"
+      }
+    },
+    {
+      "id": "P007",
+      "label": "Rahul Bose",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P007\", \"name\": \"Rahul Bose\", \"aliases\": [\"R. Bose\"], \"age\": 40, \"city\": \"Howrah\", \"phone_ids\": [\"PH008\"], \"case_ids\": [\"C004\"]}"
+      }
+    },
+    {
+      "id": "P008",
+      "label": "Imran Khan",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P008\", \"name\": \"Imran Khan\", \"aliases\": [\"I. Khan\"], \"age\": 33, \"city\": \"Kolkata\", \"phone_ids\": [\"PH009\"], \"case_ids\": [\"C004\"]}"
+      }
+    },
+    {
+      "id": "P009",
+      "label": "Aditya Roy",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P009\", \"name\": \"Aditya Roy\", \"aliases\": [\"A. Roy\"], \"age\": 27, \"city\": \"Kolkata\", \"phone_ids\": [\"PH010\"], \"case_ids\": []}"
+      }
+    },
+    {
+      "id": "P010",
+      "label": "Maya Sen",
+      "kind": "Person",
+      "attrs": {
+        "original": "{\"person_id\": \"P010\", \"name\": \"Maya Sen\", \"aliases\": [\"M. Sen\"], \"age\": 30, \"city\": \"Howrah\", \"phone_ids\": [\"PH011\"], \"case_ids\": []}"
+      }
+    },
+    {
+      "id": "PH001",
+      "label": "+91-9000000001",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH001\", \"number\": \"+91-9000000001\", \"owner_person_id\": \"P001\"}"
+      }
+    },
+    {
+      "id": "PH002",
+      "label": "+91-9000000002",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH002\", \"number\": \"+91-9000000002\", \"owner_person_id\": \"P001\"}"
+      }
+    },
+    {
+      "id": "PH003",
+      "label": "+91-9000000003",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH003\", \"number\": \"+91-9000000003\", \"owner_person_id\": \"P002\"}"
+      }
+    },
+    {
+      "id": "PH004",
+      "label": "+91-9000000004",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH004\", \"number\": \"+91-9000000004\", \"owner_person_id\": \"P003\"}"
+      }
+    },
+    {
+      "id": "PH005",
+      "label": "+91-9000000005",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH005\", \"number\": \"+91-9000000005\", \"owner_person_id\": \"P004\"}"
+      }
+    },
+    {
+      "id": "PH006",
+      "label": "+91-9000000006",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH006\", \"number\": \"+91-9000000006\", \"owner_person_id\": \"P005\"}"
+      }
+    },
+    {
+      "id": "PH007",
+      "label": "+91-9000000007",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH007\", \"number\": \"+91-9000000007\", \"owner_person_id\": \"P006\"}"
+      }
+    },
+    {
+      "id": "PH008",
+      "label": "+91-9000000008",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH008\", \"number\": \"+91-9000000008\", \"owner_person_id\": \"P007\"}"
+      }
+    },
+    {
+      "id": "PH009",
+      "label": "+91-9000000009",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH009\", \"number\": \"+91-9000000009\", \"owner_person_id\": \"P008\"}"
+      }
+    },
+    {
+      "id": "PH010",
+      "label": "+91-9000000010",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH010\", \"number\": \"+91-9000000010\", \"owner_person_id\": \"P009\"}"
+      }
+    },
+    {
+      "id": "PH011",
+      "label": "+91-9000000011",
+      "kind": "Phone",
+      "attrs": {
+        "original": "{\"phone_id\": \"PH011\", \"number\": \"+91-9000000011\", \"owner_person_id\": \"P010\"}"
+      }
+    },
+    {
+      "id": "ORG001",
+      "label": "Eastern Logistics",
+      "kind": "Organization",
+      "attrs": {
+        "original": "{\"organization_id\": \"ORG001\", \"name\": \"Eastern Logistics\", \"type\": \"Logistics Company\", \"city\": \"Kolkata\"}"
+      }
+    },
+    {
+      "id": "ORG002",
+      "label": "Metro Trading",
+      "kind": "Organization",
+      "attrs": {
+        "original": "{\"organization_id\": \"ORG002\", \"name\": \"Metro Trading\", \"type\": \"Trading Company\", \"city\": \"Howrah\"}"
+      }
+    },
+    {
+      "id": "V001",
+      "label": "WB01-AB-1001",
+      "kind": "Vehicle",
+      "attrs": {
+        "original": "{\"vehicle_id\": \"V001\", \"registration\": \"WB01-AB-1001\", \"type\": \"Sedan\", \"owner_person_id\": \"P001\"}"
+      }
+    },
+    {
+      "id": "V002",
+      "label": "WB02-CD-2002",
+      "kind": "Vehicle",
+      "attrs": {
+        "original": "{\"vehicle_id\": \"V002\", \"registration\": \"WB02-CD-2002\", \"type\": \"SUV\", \"owner_person_id\": \"P004\"}"
+      }
+    },
+    {
+      "id": "V003",
+      "label": "WB03-EF-3003",
+      "kind": "Vehicle",
+      "attrs": {
+        "original": "{\"vehicle_id\": \"V003\", \"registration\": \"WB03-EF-3003\", \"type\": \"Van\", \"owner_person_id\": \"P006\"}"
+      }
+    },
+    {
+      "id": "L001",
+      "label": "Central Market",
+      "kind": "Location",
+      "attrs": {
+        "original": "{\"location_id\": \"L001\", \"name\": \"Central Market\", \"city\": \"Kolkata\", \"latitude\": 22.5726, \"longitude\": 88.3639}"
+      }
+    },
+    {
+      "id": "L002",
+      "label": "Riverside Warehouse",
+      "kind": "Location",
+      "attrs": {
+        "original": "{\"location_id\": \"L002\", \"name\": \"Riverside Warehouse\", \"city\": \"Howrah\", \"latitude\": 22.5958, \"longitude\": 88.2636}"
+      }
+    },
+    {
+      "id": "L003",
+      "label": "North Industrial Area",
+      "kind": "Location",
+      "attrs": {
+        "original": "{\"location_id\": \"L003\", \"name\": \"North Industrial Area\", \"city\": \"Kolkata\", \"latitude\": 22.61, \"longitude\": 88.39}"
+      }
+    },
+    {
+      "id": "L004",
+      "label": "East Transport Hub",
+      "kind": "Location",
+      "attrs": {
+        "original": "{\"location_id\": \"L004\", \"name\": \"East Transport Hub\", \"city\": \"Kolkata\", \"latitude\": 22.58, \"longitude\": 88.42}"
+      }
+    },
+    {
+      "id": "L005",
+      "label": "South Business District",
+      "kind": "Location",
+      "attrs": {
+        "original": "{\"location_id\": \"L005\", \"name\": \"South Business District\", \"city\": \"Kolkata\", \"latitude\": 22.51, \"longitude\": 88.35}"
+      }
+    },
+    {
+      "id": "C001",
+      "label": "Property Theft",
+      "kind": "Case",
+      "attrs": {
+        "original": "{\"case_id\": \"C001\", \"case_type\": \"Property Theft\", \"date\": \"2026-01-15\", \"location_id\": \"L001\", \"status\": \"Open\", \"persons\": [\"P001\", \"P002\", \"P003\"]}"
+      }
+    },
+    {
+      "id": "C002",
+      "label": "Vehicle Theft",
+      "kind": "Case",
+      "attrs": {
+        "original": "{\"case_id\": \"C002\", \"case_type\": \"Vehicle Theft\", \"date\": \"2026-02-11\", \"location_id\": \"L002\", \"status\": \"Open\", \"persons\": [\"P003\", \"P004\"]}"
+      }
+    },
+    {
+      "id": "C003",
+      "label": "Financial Fraud",
+      "kind": "Case",
+      "attrs": {
+        "original": "{\"case_id\": \"C003\", \"case_type\": \"Financial Fraud\", \"date\": \"2026-03-08\", \"location_id\": \"L004\", \"status\": \"Open\", \"persons\": [\"P001\", \"P005\", \"P006\"]}"
+      }
+    },
+    {
+      "id": "C004",
+      "label": "Cyber Fraud",
+      "kind": "Case",
+      "attrs": {
+        "original": "{\"case_id\": \"C004\", \"case_type\": \"Cyber Fraud\", \"date\": \"2026-04-19\", \"location_id\": \"L005\", \"status\": \"Under Review\", \"persons\": [\"P006\", \"P007\", \"P008\"]}"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-7fd1ad517c9cf3cf2313",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH001\", \"number\": \"+91-9000000001\", \"owner_person_id\": \"P001\"}"
+    },
+    {
+      "id": "s-2805b1c728f3c7261020",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH002\", \"number\": \"+91-9000000002\", \"owner_person_id\": \"P001\"}"
+    },
+    {
+      "id": "s-0ef13b0d4311ec6b5459",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH003\", \"number\": \"+91-9000000003\", \"owner_person_id\": \"P002\"}"
+    },
+    {
+      "id": "s-0588b98a7d4aa1cb5eb3",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH004\", \"number\": \"+91-9000000004\", \"owner_person_id\": \"P003\"}"
+    },
+    {
+      "id": "s-1c609706334bf085d922",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH005\", \"number\": \"+91-9000000005\", \"owner_person_id\": \"P004\"}"
+    },
+    {
+      "id": "s-eced729c29bb55eca0da",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH006\", \"number\": \"+91-9000000006\", \"owner_person_id\": \"P005\"}"
+    },
+    {
+      "id": "s-b81ea69048c0fff329f9",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH007\", \"number\": \"+91-9000000007\", \"owner_person_id\": \"P006\"}"
+    },
+    {
+      "id": "s-154f1c408c5c2edde91b",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH008\", \"number\": \"+91-9000000008\", \"owner_person_id\": \"P007\"}"
+    },
+    {
+      "id": "s-5c6af795c236bc73c2b0",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH009\", \"number\": \"+91-9000000009\", \"owner_person_id\": \"P008\"}"
+    },
+    {
+      "id": "s-b6ebc3ef4d618559cc42",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH010\", \"number\": \"+91-9000000010\", \"owner_person_id\": \"P009\"}"
+    },
+    {
+      "id": "s-f31da1da15effb5a309e",
+      "title": "User supplied record",
+      "text": "{\"phone_id\": \"PH011\", \"number\": \"+91-9000000011\", \"owner_person_id\": \"P010\"}"
+    },
+    {
+      "id": "s-deec6d413dc240463f5c",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V001\", \"registration\": \"WB01-AB-1001\", \"type\": \"Sedan\", \"owner_person_id\": \"P001\"}"
+    },
+    {
+      "id": "s-e6cafbe945604c85e100",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V002\", \"registration\": \"WB02-CD-2002\", \"type\": \"SUV\", \"owner_person_id\": \"P004\"}"
+    },
+    {
+      "id": "s-2c886836771c530f263a",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V003\", \"registration\": \"WB03-EF-3003\", \"type\": \"Van\", \"owner_person_id\": \"P006\"}"
+    },
+    {
+      "id": "s-2074c91162c95ff8750e",
+      "title": "User supplied record",
+      "text": "{\"person_id\": \"P001\", \"organization_id\": \"ORG001\", \"relationship\": \"employee\"}"
+    },
+    {
+      "id": "s-aa036fe8b76f2b7f5e5f",
+      "title": "User supplied record",
+      "text": "{\"person_id\": \"P006\", \"organization_id\": \"ORG001\", \"relationship\": \"manager\"}"
+    },
+    {
+      "id": "s-86e9520eca3d6591eb5b",
+      "title": "User supplied record",
+      "text": "{\"person_id\": \"P004\", \"organization_id\": \"ORG002\", \"relationship\": \"owner\"}"
+    },
+    {
+      "id": "s-1fc8b497c91c322ea81b",
+      "title": "User supplied record",
+      "text": "{\"person_id\": \"P007\", \"organization_id\": \"ORG002\", \"relationship\": \"employee\"}"
+    },
+    {
+      "id": "s-beb068a593332764d0ee",
+      "title": "User supplied record",
+      "text": "{\"case_id\": \"C001\", \"case_type\": \"Property Theft\", \"date\": \"2026-01-15\", \"location_id\": \"L001\", \"status\": \"Open\", \"persons\": [\"P001\", \"P002\", \"P003\"]}"
+    },
+    {
+      "id": "s-9c99ba17ba55d5106a2f",
+      "title": "User supplied record",
+      "text": "{\"case_id\": \"C002\", \"case_type\": \"Vehicle Theft\", \"date\": \"2026-02-11\", \"location_id\": \"L002\", \"status\": \"Open\", \"persons\": [\"P003\", \"P004\"]}"
+    },
+    {
+      "id": "s-907f60efb4af265ced66",
+      "title": "User supplied record",
+      "text": "{\"case_id\": \"C003\", \"case_type\": \"Financial Fraud\", \"date\": \"2026-03-08\", \"location_id\": \"L004\", \"status\": \"Open\", \"persons\": [\"P001\", \"P005\", \"P006\"]}"
+    },
+    {
+      "id": "s-fb6e4b612c279271346d",
+      "title": "User supplied record",
+      "text": "{\"case_id\": \"C004\", \"case_type\": \"Cyber Fraud\", \"date\": \"2026-04-19\", \"location_id\": \"L005\", \"status\": \"Under Review\", \"persons\": [\"P006\", \"P007\", \"P008\"]}"
+    },
+    {
+      "id": "s-ef2dfb30234376312114",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM001\", \"from_phone\": \"PH001\", \"to_phone\": \"PH003\", \"date\": \"2026-01-10\", \"time\": \"21:15\", \"duration_seconds\": 420, \"location_id\": \"L001\"}"
+    },
+    {
+      "id": "s-1428c4914045e9ea1a9b",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM002\", \"from_phone\": \"PH003\", \"to_phone\": \"PH004\", \"date\": \"2026-01-11\", \"time\": \"22:05\", \"duration_seconds\": 310, \"location_id\": \"L001\"}"
+    },
+    {
+      "id": "s-5cbcbb01c81f17caee8d",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM003\", \"from_phone\": \"PH004\", \"to_phone\": \"PH005\", \"date\": \"2026-02-08\", \"time\": \"23:10\", \"duration_seconds\": 510, \"location_id\": \"L002\"}"
+    },
+    {
+      "id": "s-ce0439034329873f6ecf",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM004\", \"from_phone\": \"PH001\", \"to_phone\": \"PH004\", \"date\": \"2026-02-09\", \"time\": \"20:40\", \"duration_seconds\": 620, \"location_id\": \"L002\"}"
+    },
+    {
+      "id": "s-5bd24f4de38ff13e7335",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM005\", \"from_phone\": \"PH005\", \"to_phone\": \"PH007\", \"date\": \"2026-03-01\", \"time\": \"19:30\", \"duration_seconds\": 290, \"location_id\": \"L003\"}"
+    },
+    {
+      "id": "s-d9f77d24ea67de6e6a29",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM006\", \"from_phone\": \"PH006\", \"to_phone\": \"PH007\", \"date\": \"2026-03-02\", \"time\": \"21:00\", \"duration_seconds\": 360, \"location_id\": \"L003\"}"
+    },
+    {
+      "id": "s-e5c4688d3dae47db5975",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM007\", \"from_phone\": \"PH006\", \"to_phone\": \"PH009\", \"date\": \"2026-04-10\", \"time\": \"23:45\", \"duration_seconds\": 840, \"location_id\": \"L005\"}"
+    },
+    {
+      "id": "s-f6a284ffc3f142dd7ea1",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM008\", \"from_phone\": \"PH007\", \"to_phone\": \"PH008\", \"date\": \"2026-04-11\", \"time\": \"00:20\", \"duration_seconds\": 710, \"location_id\": \"L005\"}"
+    },
+    {
+      "id": "s-f569f767985e8ca28d9b",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM009\", \"from_phone\": \"PH001\", \"to_phone\": \"PH007\", \"date\": \"2026-04-12\", \"time\": \"22:50\", \"duration_seconds\": 930, \"location_id\": \"L004\"}"
+    },
+    {
+      "id": "s-0ceac6cbb52eb03361e0",
+      "title": "User supplied record",
+      "text": "{\"communication_id\": \"COM010\", \"from_phone\": \"PH002\", \"to_phone\": \"PH010\", \"date\": \"2026-05-03\", \"time\": \"14:30\", \"duration_seconds\": 60, \"location_id\": \"L005\"}"
+    },
+    {
+      "id": "s-d63bcc2cdb65ffc868fc",
+      "title": "User supplied record",
+      "text": "{\"transaction_id\": \"T001\", \"from_person\": \"P001\", \"to_person\": \"P002\", \"amount\": 45000, \"currency\": \"INR\", \"date\": \"2026-01-12\", \"location_id\": \"L001\", \"description\": \"Business transfer\"}"
+    },
+    {
+      "id": "s-0cd9e601ab928b1f4d2a",
+      "title": "User supplied record",
+      "text": "{\"transaction_id\": \"T002\", \"from_person\": \"P003\", \"to_person\": \"P004\", \"amount\": 125000, \"currency\": \"INR\", \"date\": \"2026-02-10\", \"location_id\": \"L002\", \"description\": \"Equipment payment\"}"
+    },
+    {
+      "id": "s-96c985f13f96b80a2676",
+      "title": "User supplied record",
+      "text": "{\"transaction_id\": \"T003\", \"from_person\": \"P005\", \"to_person\": \"P006\", \"amount\": 85000, \"currency\": \"INR\", \"date\": \"2026-03-05\", \"location_id\": \"L004\", \"description\": \"Service payment\"}"
+    },
+    {
+      "id": "s-f0ea4583a68dc15f88bc",
+      "title": "User supplied record",
+      "text": "{\"transaction_id\": \"T004\", \"from_person\": \"P006\", \"to_person\": \"P007\", \"amount\": 250000, \"currency\": \"INR\", \"date\": \"2026-04-15\", \"location_id\": \"L005\", \"description\": \"Consulting payment\"}"
+    },
+    {
+      "id": "s-bac7682b518083a7f252",
+      "title": "User supplied record",
+      "text": "{\"transaction_id\": \"T005\", \"from_person\": \"P001\", \"to_person\": \"P006\", \"amount\": 310000, \"currency\": \"INR\", \"date\": \"2026-04-17\", \"location_id\": \"L004\", \"description\": \"Investment\"}"
+    },
+    {
+      "id": "s-364f0d02f563f7cc01fc",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V001\", \"location_id\": \"L001\", \"date\": \"2026-01-15\", \"time\": \"20:30\"}"
+    },
+    {
+      "id": "s-9b7a5ad2878ef06f771a",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V001\", \"location_id\": \"L002\", \"date\": \"2026-02-09\", \"time\": \"22:15\"}"
+    },
+    {
+      "id": "s-583b3cf3abfa7e9f0890",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V002\", \"location_id\": \"L002\", \"date\": \"2026-02-11\", \"time\": \"21:40\"}"
+    },
+    {
+      "id": "s-11644ca70a9f2e518245",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V003\", \"location_id\": \"L004\", \"date\": \"2026-03-08\", \"time\": \"23:10\"}"
+    },
+    {
+      "id": "s-6254860d81cbb3514d0d",
+      "title": "User supplied record",
+      "text": "{\"vehicle_id\": \"V003\", \"location_id\": \"L005\", \"date\": \"2026-04-19\", \"time\": \"22:30\"}"
+    },
+    {
+      "id": "s-7fdacaf2c3ed88d2df13",
+      "title": "User supplied record",
+      "text": "{\"note_id\": \"N001\", \"case_id\": \"C001\", \"text\": \"Arjun Mehta was reportedly seen communicating with Rohan Das shortly before the incident. Rohan Das was later observed near Central Market.\"}"
+    },
+    {
+      "id": "s-899dfa8a070ee470836d",
+      "title": "User supplied record",
+      "text": "{\"note_id\": \"N002\", \"case_id\": \"C002\", \"text\": \"Kabir Sen and Vikram Roy were connected through multiple communications around the date of the vehicle theft.\"}"
+    },
+    {
+      "id": "s-c689e5e803913c40e6a5",
+      "title": "User supplied record",
+      "text": "{\"note_id\": \"N003\", \"case_id\": \"C003\", \"text\": \"Neel Sharma transferred funds to Samar Gupta shortly before the reported fraud.\"}"
+    },
+    {
+      "id": "s-fa90c9b44dafb08ede5f",
+      "title": "User supplied record",
+      "text": "{\"note_id\": \"N004\", \"case_id\": \"C004\", \"text\": \"Samar Gupta communicated with Rahul Bose and Imran Khan during the period under investigation.\"}"
+    },
+    {
+      "id": "s-aa98393cb6efd63460fc",
+      "title": "User supplied record",
+      "text": "{\"name\": \"Synthetic Criminal Network Investigation Dataset\", \"version\": \"1.0\", \"description\": \"Synthetic data for testing an AI-powered criminal network analysis system.\", \"warning\": \"All names, identifiers, phone numbers, cases, locations and transactions are fictional.\", \"intended_use\": [\"Entity resolution\", \"Knowledge graph construction\", \"Relationship extraction\", \"Community detection\", \"Centrality analysis\", \"Temporal analysis\", \"Geographic analysis\", \"Anomaly detection\", \"Explainable AI\"]}"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-b76fbca1ca7ac303ffbf",
+      "source": "P001",
+      "target": "PH001",
+      "relation": "owns",
+      "source_id": "s-7fd1ad517c9cf3cf2313",
+      "excerpt": "{\"phone_id\": \"PH001\", \"number\": \"+91-9000000001\", \"owner_person_id\": \"P001\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-a3827eb1b05304f9acdd",
+      "source": "P001",
+      "target": "PH002",
+      "relation": "owns",
+      "source_id": "s-2805b1c728f3c7261020",
+      "excerpt": "{\"phone_id\": \"PH002\", \"number\": \"+91-9000000002\", \"owner_person_id\": \"P001\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-cfab9f3d46d4ae3d4689",
+      "source": "P002",
+      "target": "PH003",
+      "relation": "owns",
+      "source_id": "s-0ef13b0d4311ec6b5459",
+      "excerpt": "{\"phone_id\": \"PH003\", \"number\": \"+91-9000000003\", \"owner_person_id\": \"P002\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-a0166c93f615eb16730f",
+      "source": "P003",
+      "target": "PH004",
+      "relation": "owns",
+      "source_id": "s-0588b98a7d4aa1cb5eb3",
+      "excerpt": "{\"phone_id\": \"PH004\", \"number\": \"+91-9000000004\", \"owner_person_id\": \"P003\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-23851a2f4a34bcaa0593",
+      "source": "P004",
+      "target": "PH005",
+      "relation": "owns",
+      "source_id": "s-1c609706334bf085d922",
+      "excerpt": "{\"phone_id\": \"PH005\", \"number\": \"+91-9000000005\", \"owner_person_id\": \"P004\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-3abeb822abc896860fda",
+      "source": "P005",
+      "target": "PH006",
+      "relation": "owns",
+      "source_id": "s-eced729c29bb55eca0da",
+      "excerpt": "{\"phone_id\": \"PH006\", \"number\": \"+91-9000000006\", \"owner_person_id\": \"P005\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-7707f62c7b96dcae051e",
+      "source": "P006",
+      "target": "PH007",
+      "relation": "owns",
+      "source_id": "s-b81ea69048c0fff329f9",
+      "excerpt": "{\"phone_id\": \"PH007\", \"number\": \"+91-9000000007\", \"owner_person_id\": \"P006\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-c7ef8951d5cbee9d26ba",
+      "source": "P007",
+      "target": "PH008",
+      "relation": "owns",
+      "source_id": "s-154f1c408c5c2edde91b",
+      "excerpt": "{\"phone_id\": \"PH008\", \"number\": \"+91-9000000008\", \"owner_person_id\": \"P007\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-cc81bda3016e9b169342",
+      "source": "P008",
+      "target": "PH009",
+      "relation": "owns",
+      "source_id": "s-5c6af795c236bc73c2b0",
+      "excerpt": "{\"phone_id\": \"PH009\", \"number\": \"+91-9000000009\", \"owner_person_id\": \"P008\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-1d1fa7de7d638d425417",
+      "source": "P009",
+      "target": "PH010",
+      "relation": "owns",
+      "source_id": "s-b6ebc3ef4d618559cc42",
+      "excerpt": "{\"phone_id\": \"PH010\", \"number\": \"+91-9000000010\", \"owner_person_id\": \"P009\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-899a4265fc182cff3c81",
+      "source": "P010",
+      "target": "PH011",
+      "relation": "owns",
+      "source_id": "s-f31da1da15effb5a309e",
+      "excerpt": "{\"phone_id\": \"PH011\", \"number\": \"+91-9000000011\", \"owner_person_id\": \"P010\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-97ddf71a25e600d92134",
+      "source": "P001",
+      "target": "V001",
+      "relation": "owns",
+      "source_id": "s-deec6d413dc240463f5c",
+      "excerpt": "{\"vehicle_id\": \"V001\", \"registration\": \"WB01-AB-1001\", \"type\": \"Sedan\", \"owner_person_id\": \"P001\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-c8d8d801794b524bcc08",
+      "source": "P004",
+      "target": "V002",
+      "relation": "owns",
+      "source_id": "s-e6cafbe945604c85e100",
+      "excerpt": "{\"vehicle_id\": \"V002\", \"registration\": \"WB02-CD-2002\", \"type\": \"SUV\", \"owner_person_id\": \"P004\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-e04480314859378fc676",
+      "source": "P006",
+      "target": "V003",
+      "relation": "owns",
+      "source_id": "s-2c886836771c530f263a",
+      "excerpt": "{\"vehicle_id\": \"V003\", \"registration\": \"WB03-EF-3003\", \"type\": \"Van\", \"owner_person_id\": \"P006\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-dd8b23cd0f19429ffaa7",
+      "source": "P001",
+      "target": "ORG001",
+      "relation": "member_of",
+      "source_id": "s-2074c91162c95ff8750e",
+      "excerpt": "{\"person_id\": \"P001\", \"organization_id\": \"ORG001\", \"relationship\": \"employee\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-9e2afb9418d8b71ce7de",
+      "source": "P006",
+      "target": "ORG001",
+      "relation": "member_of",
+      "source_id": "s-aa036fe8b76f2b7f5e5f",
+      "excerpt": "{\"person_id\": \"P006\", \"organization_id\": \"ORG001\", \"relationship\": \"manager\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-ed69ee64584670e41442",
+      "source": "P004",
+      "target": "ORG002",
+      "relation": "owns",
+      "source_id": "s-86e9520eca3d6591eb5b",
+      "excerpt": "{\"person_id\": \"P004\", \"organization_id\": \"ORG002\", \"relationship\": \"owner\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-3400e122b20c7bd63979",
+      "source": "P007",
+      "target": "ORG002",
+      "relation": "member_of",
+      "source_id": "s-1fc8b497c91c322ea81b",
+      "excerpt": "{\"person_id\": \"P007\", \"organization_id\": \"ORG002\", \"relationship\": \"employee\"}",
+      "occurred_at": null,
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-e2c2a114f2783accd005",
+      "source": "P001",
+      "target": "C001",
+      "relation": "mentioned_in",
+      "source_id": "s-beb068a593332764d0ee",
+      "excerpt": "{\"case_id\": \"C001\", \"case_type\": \"Property Theft\", \"date\": \"2026-01-15\", \"location_id\": \"L001\", \"status\": \"Open\", \"persons\": [\"P001\", \"P002\", \"P003\"]}",
+      "occurred_at": "2026-01-15",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-35e94e47b30819410192",
+      "source": "P002",
+      "target": "C001",
+      "relation": "mentioned_in",
+      "source_id": "s-beb068a593332764d0ee",
+      "excerpt": "{\"case_id\": \"C001\", \"case_type\": \"Property Theft\", \"date\": \"2026-01-15\", \"location_id\": \"L001\", \"status\": \"Open\", \"persons\": [\"P001\", \"P002\", \"P003\"]}",
+      "occurred_at": "2026-01-15",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-3eb1efe4dfe5afd6f961",
+      "source": "P003",
+      "target": "C001",
+      "relation": "mentioned_in",
+      "source_id": "s-beb068a593332764d0ee",
+      "excerpt": "{\"case_id\": \"C001\", \"case_type\": \"Property Theft\", \"date\": \"2026-01-15\", \"location_id\": \"L001\", \"status\": \"Open\", \"persons\": [\"P001\", \"P002\", \"P003\"]}",
+      "occurred_at": "2026-01-15",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-82caf4297761f39cca90",
+      "source": "P003",
+      "target": "C002",
+      "relation": "mentioned_in",
+      "source_id": "s-9c99ba17ba55d5106a2f",
+      "excerpt": "{\"case_id\": \"C002\", \"case_type\": \"Vehicle Theft\", \"date\": \"2026-02-11\", \"location_id\": \"L002\", \"status\": \"Open\", \"persons\": [\"P003\", \"P004\"]}",
+      "occurred_at": "2026-02-11",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-b663f5e2bac23119fa01",
+      "source": "P004",
+      "target": "C002",
+      "relation": "mentioned_in",
+      "source_id": "s-9c99ba17ba55d5106a2f",
+      "excerpt": "{\"case_id\": \"C002\", \"case_type\": \"Vehicle Theft\", \"date\": \"2026-02-11\", \"location_id\": \"L002\", \"status\": \"Open\", \"persons\": [\"P003\", \"P004\"]}",
+      "occurred_at": "2026-02-11",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-5bbf3e8833d055afafd4",
+      "source": "P001",
+      "target": "C003",
+      "relation": "mentioned_in",
+      "source_id": "s-907f60efb4af265ced66",
+      "excerpt": "{\"case_id\": \"C003\", \"case_type\": \"Financial Fraud\", \"date\": \"2026-03-08\", \"location_id\": \"L004\", \"status\": \"Open\", \"persons\": [\"P001\", \"P005\", \"P006\"]}",
+      "occurred_at": "2026-03-08",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-2b9e4ac028065b135648",
+      "source": "P005",
+      "target": "C003",
+      "relation": "mentioned_in",
+      "source_id": "s-907f60efb4af265ced66",
+      "excerpt": "{\"case_id\": \"C003\", \"case_type\": \"Financial Fraud\", \"date\": \"2026-03-08\", \"location_id\": \"L004\", \"status\": \"Open\", \"persons\": [\"P001\", \"P005\", \"P006\"]}",
+      "occurred_at": "2026-03-08",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-f61507f39b097f028942",
+      "source": "P006",
+      "target": "C003",
+      "relation": "mentioned_in",
+      "source_id": "s-907f60efb4af265ced66",
+      "excerpt": "{\"case_id\": \"C003\", \"case_type\": \"Financial Fraud\", \"date\": \"2026-03-08\", \"location_id\": \"L004\", \"status\": \"Open\", \"persons\": [\"P001\", \"P005\", \"P006\"]}",
+      "occurred_at": "2026-03-08",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-5614a5e947dc5cddf144",
+      "source": "P006",
+      "target": "C004",
+      "relation": "mentioned_in",
+      "source_id": "s-fb6e4b612c279271346d",
+      "excerpt": "{\"case_id\": \"C004\", \"case_type\": \"Cyber Fraud\", \"date\": \"2026-04-19\", \"location_id\": \"L005\", \"status\": \"Under Review\", \"persons\": [\"P006\", \"P007\", \"P008\"]}",
+      "occurred_at": "2026-04-19",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-3bad9d327e8f38a96972",
+      "source": "P007",
+      "target": "C004",
+      "relation": "mentioned_in",
+      "source_id": "s-fb6e4b612c279271346d",
+      "excerpt": "{\"case_id\": \"C004\", \"case_type\": \"Cyber Fraud\", \"date\": \"2026-04-19\", \"location_id\": \"L005\", \"status\": \"Under Review\", \"persons\": [\"P006\", \"P007\", \"P008\"]}",
+      "occurred_at": "2026-04-19",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-9131a69a2492d8fa4232",
+      "source": "P008",
+      "target": "C004",
+      "relation": "mentioned_in",
+      "source_id": "s-fb6e4b612c279271346d",
+      "excerpt": "{\"case_id\": \"C004\", \"case_type\": \"Cyber Fraud\", \"date\": \"2026-04-19\", \"location_id\": \"L005\", \"status\": \"Under Review\", \"persons\": [\"P006\", \"P007\", \"P008\"]}",
+      "occurred_at": "2026-04-19",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-1b21d837b62a04568d38",
+      "source": "PH001",
+      "target": "PH003",
+      "relation": "called",
+      "source_id": "s-ef2dfb30234376312114",
+      "excerpt": "{\"communication_id\": \"COM001\", \"from_phone\": \"PH001\", \"to_phone\": \"PH003\", \"date\": \"2026-01-10\", \"time\": \"21:15\", \"duration_seconds\": 420, \"location_id\": \"L001\"}",
+      "occurred_at": "2026-01-10T15:45:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-139b4bbd2ee73c4c68dd",
+      "source": "PH003",
+      "target": "PH004",
+      "relation": "called",
+      "source_id": "s-1428c4914045e9ea1a9b",
+      "excerpt": "{\"communication_id\": \"COM002\", \"from_phone\": \"PH003\", \"to_phone\": \"PH004\", \"date\": \"2026-01-11\", \"time\": \"22:05\", \"duration_seconds\": 310, \"location_id\": \"L001\"}",
+      "occurred_at": "2026-01-11T16:35:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-381deec3e2e1e2136f95",
+      "source": "PH004",
+      "target": "PH005",
+      "relation": "called",
+      "source_id": "s-5cbcbb01c81f17caee8d",
+      "excerpt": "{\"communication_id\": \"COM003\", \"from_phone\": \"PH004\", \"to_phone\": \"PH005\", \"date\": \"2026-02-08\", \"time\": \"23:10\", \"duration_seconds\": 510, \"location_id\": \"L002\"}",
+      "occurred_at": "2026-02-08T17:40:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-b1456a92fa664b5b52f4",
+      "source": "PH001",
+      "target": "PH004",
+      "relation": "called",
+      "source_id": "s-ce0439034329873f6ecf",
+      "excerpt": "{\"communication_id\": \"COM004\", \"from_phone\": \"PH001\", \"to_phone\": \"PH004\", \"date\": \"2026-02-09\", \"time\": \"20:40\", \"duration_seconds\": 620, \"location_id\": \"L002\"}",
+      "occurred_at": "2026-02-09T15:10:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-169716c4c15e0f8a528f",
+      "source": "PH005",
+      "target": "PH007",
+      "relation": "called",
+      "source_id": "s-5bd24f4de38ff13e7335",
+      "excerpt": "{\"communication_id\": \"COM005\", \"from_phone\": \"PH005\", \"to_phone\": \"PH007\", \"date\": \"2026-03-01\", \"time\": \"19:30\", \"duration_seconds\": 290, \"location_id\": \"L003\"}",
+      "occurred_at": "2026-03-01T14:00:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-a18abd54ff8f45df33f1",
+      "source": "PH006",
+      "target": "PH007",
+      "relation": "called",
+      "source_id": "s-d9f77d24ea67de6e6a29",
+      "excerpt": "{\"communication_id\": \"COM006\", \"from_phone\": \"PH006\", \"to_phone\": \"PH007\", \"date\": \"2026-03-02\", \"time\": \"21:00\", \"duration_seconds\": 360, \"location_id\": \"L003\"}",
+      "occurred_at": "2026-03-02T15:30:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-d213fde952f63f2fea44",
+      "source": "PH006",
+      "target": "PH009",
+      "relation": "called",
+      "source_id": "s-e5c4688d3dae47db5975",
+      "excerpt": "{\"communication_id\": \"COM007\", \"from_phone\": \"PH006\", \"to_phone\": \"PH009\", \"date\": \"2026-04-10\", \"time\": \"23:45\", \"duration_seconds\": 840, \"location_id\": \"L005\"}",
+      "occurred_at": "2026-04-10T18:15:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-1b8ee9fae2e15e5b21b7",
+      "source": "PH007",
+      "target": "PH008",
+      "relation": "called",
+      "source_id": "s-f6a284ffc3f142dd7ea1",
+      "excerpt": "{\"communication_id\": \"COM008\", \"from_phone\": \"PH007\", \"to_phone\": \"PH008\", \"date\": \"2026-04-11\", \"time\": \"00:20\", \"duration_seconds\": 710, \"location_id\": \"L005\"}",
+      "occurred_at": "2026-04-10T18:50:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-79b0783d8fd8c8b0773f",
+      "source": "PH001",
+      "target": "PH007",
+      "relation": "called",
+      "source_id": "s-f569f767985e8ca28d9b",
+      "excerpt": "{\"communication_id\": \"COM009\", \"from_phone\": \"PH001\", \"to_phone\": \"PH007\", \"date\": \"2026-04-12\", \"time\": \"22:50\", \"duration_seconds\": 930, \"location_id\": \"L004\"}",
+      "occurred_at": "2026-04-12T17:20:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-60ac9c7ad8142d316467",
+      "source": "PH002",
+      "target": "PH010",
+      "relation": "called",
+      "source_id": "s-0ceac6cbb52eb03361e0",
+      "excerpt": "{\"communication_id\": \"COM010\", \"from_phone\": \"PH002\", \"to_phone\": \"PH010\", \"date\": \"2026-05-03\", \"time\": \"14:30\", \"duration_seconds\": 60, \"location_id\": \"L005\"}",
+      "occurred_at": "2026-05-03T09:00:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-e22949ada105833039a4",
+      "source": "P001",
+      "target": "P002",
+      "relation": "transferred",
+      "source_id": "s-d63bcc2cdb65ffc868fc",
+      "excerpt": "{\"transaction_id\": \"T001\", \"from_person\": \"P001\", \"to_person\": \"P002\", \"amount\": 45000, \"currency\": \"INR\", \"date\": \"2026-01-12\", \"location_id\": \"L001\", \"description\": \"Business transfer\"}",
+      "occurred_at": "2026-01-12",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-4149d07ca6470c38e248",
+      "source": "P003",
+      "target": "P004",
+      "relation": "transferred",
+      "source_id": "s-0cd9e601ab928b1f4d2a",
+      "excerpt": "{\"transaction_id\": \"T002\", \"from_person\": \"P003\", \"to_person\": \"P004\", \"amount\": 125000, \"currency\": \"INR\", \"date\": \"2026-02-10\", \"location_id\": \"L002\", \"description\": \"Equipment payment\"}",
+      "occurred_at": "2026-02-10",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-578980af4d806b745a3c",
+      "source": "P005",
+      "target": "P006",
+      "relation": "transferred",
+      "source_id": "s-96c985f13f96b80a2676",
+      "excerpt": "{\"transaction_id\": \"T003\", \"from_person\": \"P005\", \"to_person\": \"P006\", \"amount\": 85000, \"currency\": \"INR\", \"date\": \"2026-03-05\", \"location_id\": \"L004\", \"description\": \"Service payment\"}",
+      "occurred_at": "2026-03-05",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-fdfdf9c45a2c8bdaee4c",
+      "source": "P006",
+      "target": "P007",
+      "relation": "transferred",
+      "source_id": "s-f0ea4583a68dc15f88bc",
+      "excerpt": "{\"transaction_id\": \"T004\", \"from_person\": \"P006\", \"to_person\": \"P007\", \"amount\": 250000, \"currency\": \"INR\", \"date\": \"2026-04-15\", \"location_id\": \"L005\", \"description\": \"Consulting payment\"}",
+      "occurred_at": "2026-04-15",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-72ba0a9f6a3e1a576d45",
+      "source": "P001",
+      "target": "P006",
+      "relation": "transferred",
+      "source_id": "s-bac7682b518083a7f252",
+      "excerpt": "{\"transaction_id\": \"T005\", \"from_person\": \"P001\", \"to_person\": \"P006\", \"amount\": 310000, \"currency\": \"INR\", \"date\": \"2026-04-17\", \"location_id\": \"L004\", \"description\": \"Investment\"}",
+      "occurred_at": "2026-04-17",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-63275efd3ecc32113382",
+      "source": "V001",
+      "target": "L001",
+      "relation": "visited",
+      "source_id": "s-364f0d02f563f7cc01fc",
+      "excerpt": "{\"vehicle_id\": \"V001\", \"location_id\": \"L001\", \"date\": \"2026-01-15\", \"time\": \"20:30\"}",
+      "occurred_at": "2026-01-15T15:00:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-861d1633eb4070261411",
+      "source": "V001",
+      "target": "L002",
+      "relation": "visited",
+      "source_id": "s-9b7a5ad2878ef06f771a",
+      "excerpt": "{\"vehicle_id\": \"V001\", \"location_id\": \"L002\", \"date\": \"2026-02-09\", \"time\": \"22:15\"}",
+      "occurred_at": "2026-02-09T16:45:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-2dc5bfa38dc015638c54",
+      "source": "V002",
+      "target": "L002",
+      "relation": "visited",
+      "source_id": "s-583b3cf3abfa7e9f0890",
+      "excerpt": "{\"vehicle_id\": \"V002\", \"location_id\": \"L002\", \"date\": \"2026-02-11\", \"time\": \"21:40\"}",
+      "occurred_at": "2026-02-11T16:10:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-5c225948f68e8aa34548",
+      "source": "V003",
+      "target": "L004",
+      "relation": "visited",
+      "source_id": "s-11644ca70a9f2e518245",
+      "excerpt": "{\"vehicle_id\": \"V003\", \"location_id\": \"L004\", \"date\": \"2026-03-08\", \"time\": \"23:10\"}",
+      "occurred_at": "2026-03-08T17:40:00+00:00",
+      "polarity": "asserted"
+    },
+    {
+      "id": "e-be9046993ba01519261e",
+      "source": "V003",
+      "target": "L005",
+      "relation": "visited",
+      "source_id": "s-6254860d81cbb3514d0d",
+      "excerpt": "{\"vehicle_id\": \"V003\", \"location_id\": \"L005\", \"date\": \"2026-04-19\", \"time\": \"22:30\"}",
+      "occurred_at": "2026-04-19T17:00:00+00:00",
+      "polarity": "asserted"
+    }
+  ]
+}

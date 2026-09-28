@@ -1,0 +1,246 @@
+{
+  "entities": [
+    {
+      "id": "asha-a",
+      "label": "Asha Rao",
+      "kind": "Person",
+      "attrs": {
+        "email": "asha@example.test"
+      }
+    },
+    {
+      "id": "asha-b",
+      "label": "ASHA RAO",
+      "kind": "Person",
+      "attrs": {
+        "email": "ASHA@example.test",
+        "aliases": "A. Rao"
+      }
+    },
+    {
+      "id": "ravi",
+      "label": "Ravi Sen",
+      "kind": "Person",
+      "attrs": {}
+    },
+    {
+      "id": "neel",
+      "label": "Neel Mehta",
+      "kind": "Person",
+      "attrs": {}
+    },
+    {
+      "id": "mira",
+      "label": "Mira Desai",
+      "kind": "Person",
+      "attrs": {}
+    },
+    {
+      "id": "van",
+      "label": "MH 01 AB 1234",
+      "kind": "Vehicle",
+      "attrs": {}
+    },
+    {
+      "id": "org",
+      "label": "Harbor Logistics (fictional)",
+      "kind": "Organization",
+      "attrs": {}
+    },
+    {
+      "id": "market",
+      "label": "Market collection point (fictional)",
+      "kind": "Location",
+      "attrs": {
+        "latitude": "19.076",
+        "longitude": "72.8777"
+      }
+    },
+    {
+      "id": "depot",
+      "label": "Depot (fictional)",
+      "kind": "Location",
+      "attrs": {
+        "latitude": "19.096",
+        "longitude": "72.8977"
+      }
+    },
+    {
+      "id": "homonym",
+      "label": "Asha Rao",
+      "kind": "Person",
+      "attrs": {
+        "email": "different@example.test"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "v3-s0",
+      "title": "Fictional record 1",
+      "text": "FICTIONAL SHOWCASE 1: asha-a called neel. Event time: 2026-01-10T08:00:00+00:00."
+    },
+    {
+      "id": "v3-s1",
+      "title": "Fictional record 2",
+      "text": "FICTIONAL SHOWCASE 2: ravi called neel. Event time: 2026-01-10T09:00:00+00:00."
+    },
+    {
+      "id": "v3-s2",
+      "title": "Fictional record 3",
+      "text": "FICTIONAL SHOWCASE 3: asha-b called mira. Event time: 2026-01-11T08:00:00+00:00."
+    },
+    {
+      "id": "v3-s3",
+      "title": "Fictional record 4",
+      "text": "FICTIONAL SHOWCASE 4: ravi called mira. Event time: 2026-01-11T09:00:00+00:00."
+    },
+    {
+      "id": "v3-s4",
+      "title": "Fictional record 5",
+      "text": "FICTIONAL SHOWCASE 5: asha-b member_of org. Event time: not recorded."
+    },
+    {
+      "id": "v3-s5",
+      "title": "Fictional record 6",
+      "text": "FICTIONAL SHOWCASE 6: ravi member_of org. Event time: not recorded."
+    },
+    {
+      "id": "v3-s6",
+      "title": "Fictional record 7",
+      "text": "FICTIONAL SHOWCASE 7: asha-a visited market. Event time: 2026-01-12T08:00:00+00:00."
+    },
+    {
+      "id": "v3-s7",
+      "title": "Fictional record 8",
+      "text": "FICTIONAL SHOWCASE 8: ravi visited market. Event time: 2026-01-12T08:10:00+00:00."
+    },
+    {
+      "id": "v3-s8",
+      "title": "Fictional record 9",
+      "text": "FICTIONAL SHOWCASE 9: van visited depot. Event time: 2026-01-12T09:00:00+00:00."
+    },
+    {
+      "id": "v3-s9",
+      "title": "Fictional record 10",
+      "text": "FICTIONAL SHOWCASE 10: asha-b uses van. Event time: 2026-01-12."
+    },
+    {
+      "id": "v3-s10",
+      "title": "Fictional record 11",
+      "text": "FICTIONAL SHOWCASE 11: ravi uses van. Event time: not recorded."
+    }
+  ],
+  "edges": [
+    {
+      "id": "v3-e0",
+      "source": "asha-a",
+      "target": "neel",
+      "relation": "called",
+      "occurred_at": "2026-01-10T08:00:00+00:00",
+      "source_id": "v3-s0",
+      "excerpt": "FICTIONAL SHOWCASE 1: asha-a called neel. Event time: 2026-01-10T08:00:00+00:00.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e1",
+      "source": "ravi",
+      "target": "neel",
+      "relation": "called",
+      "occurred_at": "2026-01-10T09:00:00+00:00",
+      "source_id": "v3-s1",
+      "excerpt": "FICTIONAL SHOWCASE 2: ravi called neel. Event time: 2026-01-10T09:00:00+00:00.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e2",
+      "source": "asha-b",
+      "target": "mira",
+      "relation": "called",
+      "occurred_at": "2026-01-11T08:00:00+00:00",
+      "source_id": "v3-s2",
+      "excerpt": "FICTIONAL SHOWCASE 3: asha-b called mira. Event time: 2026-01-11T08:00:00+00:00.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e3",
+      "source": "ravi",
+      "target": "mira",
+      "relation": "called",
+      "occurred_at": "2026-01-11T09:00:00+00:00",
+      "source_id": "v3-s3",
+      "excerpt": "FICTIONAL SHOWCASE 4: ravi called mira. Event time: 2026-01-11T09:00:00+00:00.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e4",
+      "source": "asha-b",
+      "target": "org",
+      "relation": "member_of",
+      "occurred_at": null,
+      "source_id": "v3-s4",
+      "excerpt": "FICTIONAL SHOWCASE 5: asha-b member_of org. Event time: not recorded.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e5",
+      "source": "ravi",
+      "target": "org",
+      "relation": "member_of",
+      "occurred_at": null,
+      "source_id": "v3-s5",
+      "excerpt": "FICTIONAL SHOWCASE 6: ravi member_of org. Event time: not recorded.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e6",
+      "source": "asha-a",
+      "target": "market",
+      "relation": "visited",
+      "occurred_at": "2026-01-12T08:00:00+00:00",
+      "source_id": "v3-s6",
+      "excerpt": "FICTIONAL SHOWCASE 7: asha-a visited market. Event time: 2026-01-12T08:00:00+00:00.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e7",
+      "source": "ravi",
+      "target": "market",
+      "relation": "visited",
+      "occurred_at": "2026-01-12T08:10:00+00:00",
+      "source_id": "v3-s7",
+      "excerpt": "FICTIONAL SHOWCASE 8: ravi visited market. Event time: 2026-01-12T08:10:00+00:00.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e8",
+      "source": "van",
+      "target": "depot",
+      "relation": "visited",
+      "occurred_at": "2026-01-12T09:00:00+00:00",
+      "source_id": "v3-s8",
+      "excerpt": "FICTIONAL SHOWCASE 9: van visited depot. Event time: 2026-01-12T09:00:00+00:00.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e9",
+      "source": "asha-b",
+      "target": "van",
+      "relation": "uses",
+      "occurred_at": "2026-01-12",
+      "source_id": "v3-s9",
+      "excerpt": "FICTIONAL SHOWCASE 10: asha-b uses van. Event time: 2026-01-12.",
+      "polarity": "asserted"
+    },
+    {
+      "id": "v3-e10",
+      "source": "ravi",
+      "target": "van",
+      "relation": "uses",
+      "occurred_at": null,
+      "source_id": "v3-s10",
+      "excerpt": "FICTIONAL SHOWCASE 11: ravi uses van. Event time: not recorded.",
+      "polarity": "asserted"
+    }
+  ]
+}

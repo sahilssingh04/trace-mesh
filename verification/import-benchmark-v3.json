@@ -1,0 +1,13 @@
+{
+  "scope": "Single-process local SQLite conversion + one atomic import; no HTTP/browser/network/concurrency",
+  "python": "3.12.14",
+  "input_bytes": 510040,
+  "counts": {
+    "entities": 101,
+    "sources": 10000,
+    "edges": 10000
+  },
+  "conversion_seconds": 0.2198807750000924,
+  "import_seconds": 0.963639410000269,
+  "select_statements": 51
+}

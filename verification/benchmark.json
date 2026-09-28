@@ -1,0 +1,13 @@
+{
+  "scope": "In-memory analytics only; not database/API/load test",
+  "nodes": 1000,
+  "edges": 4000,
+  "runs_seconds": [
+    0.3371196600000985,
+    0.31607341400012956,
+    0.34058419799976036,
+    0.347612578999815,
+    0.3755230080000729
+  ],
+  "median_seconds": 0.34058419799976036
+}

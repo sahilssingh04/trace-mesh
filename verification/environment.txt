@@ -1,0 +1,10 @@
+Python 3.12.14 / Linux
+fastapi==0.115.12
+uvicorn==0.34.2
+SQLAlchemy==2.0.54
+networkx==3.4.2
+pydantic==2.13.5
+starlette==0.46.2
+httpx==0.28.1
+pytest==8.3.5
+playwright==1.51.0

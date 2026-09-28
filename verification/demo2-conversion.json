@@ -1,0 +1,16 @@
+{
+  "format": "structured investigation JSON",
+  "warnings": [
+    "Naive date/time fields use the selected UTC offset +05:30. Date-only records keep day precision.",
+    "Ownership and organization links without dates remain undated. Time-filtered analysis excludes undated records.",
+    "Narrative notes retained as sources, not converted into asserted relationships. Case mentions do not imply wrongdoing.",
+    "Caller location IDs and transaction metadata are retained in source records; no personal co-location is inferred."
+  ],
+  "warning_count": 4,
+  "counts": {
+    "entities": 35,
+    "sources": 47,
+    "edges": 49
+  },
+  "note": "Preview only. Import creates pending claims. Unknown event times stay unknown."
+}

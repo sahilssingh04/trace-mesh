@@ -1,0 +1,333 @@
+{
+  "dataset": "synthetic temporal community links; 100 nodes; static noisy attributes",
+  "protocol": "40% warmup graph, 20% train targets, 20% validation, 20% test. All methods share fixed warmup topology and same sampled test pairs. Negative sampling uses only observations through current split. No claims of inductive held-out-node evaluation.",
+  "limitations": [
+    "Synthetic communities are not investigative evidence.",
+    "Balanced sampled negatives inflate usefulness relative to sparse real networks.",
+    "Chronological index is simulated, not field timestamps.",
+    "Future observations may relabel earlier temporal negatives.",
+    "GNN has static attributes in addition to structure; comparison is not feature-equivalent.",
+    "No calibrated confidence or field accuracy claim."
+  ],
+  "gnn_enabled": true,
+  "runtime_seconds": 2.3156023199999254,
+  "runs": [
+    {
+      "seed": 11,
+      "context_edges": 150,
+      "ordered_event_count": 376,
+      "split_boundaries": [
+        150,
+        225,
+        300
+      ],
+      "dataset_sha256": "9a408a86fde31762639e22b55bbdea1d0b009665f4ae07805f84873630e5ef91",
+      "selected_gnn_epoch": 14,
+      "metrics": {
+        "common_neighbors": {
+          "roc_auc": 0.5850934903047093,
+          "average_precision": 0.5604204476709014,
+          "precision_at_20": 0.8,
+          "positives": 76,
+          "negatives": 76
+        },
+        "jaccard": {
+          "roc_auc": 0.5868247922437674,
+          "average_precision": 0.5724134626013447,
+          "precision_at_20": 0.8,
+          "positives": 76,
+          "negatives": 76
+        },
+        "adamic_adar": {
+          "roc_auc": 0.5892486149584488,
+          "average_precision": 0.5880379547068572,
+          "precision_at_20": 0.85,
+          "positives": 76,
+          "negatives": 76
+        },
+        "logistic_regression": {
+          "roc_auc": 0.5894217451523546,
+          "average_precision": 0.6071023574345943,
+          "precision_at_20": 0.7,
+          "positives": 76,
+          "negatives": 76
+        },
+        "graphsage": {
+          "roc_auc": 0.721606648199446,
+          "average_precision": 0.6573123947531556,
+          "precision_at_20": 0.65,
+          "positives": 76,
+          "negatives": 76
+        }
+      }
+    },
+    {
+      "seed": 23,
+      "context_edges": 158,
+      "ordered_event_count": 396,
+      "split_boundaries": [
+        158,
+        237,
+        316
+      ],
+      "dataset_sha256": "5a65f98c04f8fd4fffeef65409e2a69c7a2471f65ff4ae0ae02d010ea53a8b1f",
+      "selected_gnn_epoch": 5,
+      "metrics": {
+        "common_neighbors": {
+          "roc_auc": 0.61296875,
+          "average_precision": 0.6015625000000001,
+          "precision_at_20": 0.85,
+          "positives": 80,
+          "negatives": 80
+        },
+        "jaccard": {
+          "roc_auc": 0.6131249999999999,
+          "average_precision": 0.6092740426843688,
+          "precision_at_20": 0.85,
+          "positives": 80,
+          "negatives": 80
+        },
+        "adamic_adar": {
+          "roc_auc": 0.6124999999999999,
+          "average_precision": 0.6012405303030303,
+          "precision_at_20": 0.9,
+          "positives": 80,
+          "negatives": 80
+        },
+        "logistic_regression": {
+          "roc_auc": 0.5992968750000001,
+          "average_precision": 0.6518351538387039,
+          "precision_at_20": 0.9,
+          "positives": 80,
+          "negatives": 80
+        },
+        "graphsage": {
+          "roc_auc": 0.6996874999999999,
+          "average_precision": 0.6799675220276127,
+          "precision_at_20": 0.8,
+          "positives": 80,
+          "negatives": 80
+        }
+      }
+    },
+    {
+      "seed": 37,
+      "context_edges": 143,
+      "ordered_event_count": 359,
+      "split_boundaries": [
+        143,
+        215,
+        287
+      ],
+      "dataset_sha256": "53286870cb498fa2a0e5e358c3dc89d47a7d17af3fd29ddb184bb3bb6f55c545",
+      "selected_gnn_epoch": 10,
+      "metrics": {
+        "common_neighbors": {
+          "roc_auc": 0.6122685185185185,
+          "average_precision": 0.6035353535353536,
+          "precision_at_20": 0.85,
+          "positives": 72,
+          "negatives": 72
+        },
+        "jaccard": {
+          "roc_auc": 0.6138117283950617,
+          "average_precision": 0.6184514344731064,
+          "precision_at_20": 0.85,
+          "positives": 72,
+          "negatives": 72
+        },
+        "adamic_adar": {
+          "roc_auc": 0.611304012345679,
+          "average_precision": 0.606649989873674,
+          "precision_at_20": 0.85,
+          "positives": 72,
+          "negatives": 72
+        },
+        "logistic_regression": {
+          "roc_auc": 0.6875,
+          "average_precision": 0.704352883936769,
+          "precision_at_20": 0.8,
+          "positives": 72,
+          "negatives": 72
+        },
+        "graphsage": {
+          "roc_auc": 0.7478780864197531,
+          "average_precision": 0.7298390760678557,
+          "precision_at_20": 0.8,
+          "positives": 72,
+          "negatives": 72
+        }
+      }
+    },
+    {
+      "seed": 41,
+      "context_edges": 150,
+      "ordered_event_count": 376,
+      "split_boundaries": [
+        150,
+        225,
+        300
+      ],
+      "dataset_sha256": "908b393364bd56dac8ba9ef84feedfeb4eea2e8a72052152055e5cd2f45b5c7f",
+      "selected_gnn_epoch": 15,
+      "metrics": {
+        "common_neighbors": {
+          "roc_auc": 0.6229224376731303,
+          "average_precision": 0.5973230490018149,
+          "precision_at_20": 0.9,
+          "positives": 76,
+          "negatives": 76
+        },
+        "jaccard": {
+          "roc_auc": 0.6235283933518005,
+          "average_precision": 0.6059704236392555,
+          "precision_at_20": 0.8,
+          "positives": 76,
+          "negatives": 76
+        },
+        "adamic_adar": {
+          "roc_auc": 0.6253462603878117,
+          "average_precision": 0.5918198795339173,
+          "precision_at_20": 0.9,
+          "positives": 76,
+          "negatives": 76
+        },
+        "logistic_regression": {
+          "roc_auc": 0.5390408587257617,
+          "average_precision": 0.5449142203333859,
+          "precision_at_20": 0.6,
+          "positives": 76,
+          "negatives": 76
+        },
+        "graphsage": {
+          "roc_auc": 0.7124307479224377,
+          "average_precision": 0.693235268278067,
+          "precision_at_20": 0.75,
+          "positives": 76,
+          "negatives": 76
+        }
+      }
+    },
+    {
+      "seed": 59,
+      "context_edges": 157,
+      "ordered_event_count": 393,
+      "split_boundaries": [
+        157,
+        235,
+        314
+      ],
+      "dataset_sha256": "e66e765291f1033dd3b4b63f2a94e5e016f5e9596f5e41f3a2e4f25e485868d7",
+      "selected_gnn_epoch": 11,
+      "metrics": {
+        "common_neighbors": {
+          "roc_auc": 0.5738663675692998,
+          "average_precision": 0.550632911392405,
+          "precision_at_20": 0.75,
+          "positives": 79,
+          "negatives": 79
+        },
+        "jaccard": {
+          "roc_auc": 0.5733856753725364,
+          "average_precision": 0.543975628853826,
+          "precision_at_20": 0.75,
+          "positives": 79,
+          "negatives": 79
+        },
+        "adamic_adar": {
+          "roc_auc": 0.5729049831757731,
+          "average_precision": 0.5396981549912205,
+          "precision_at_20": 0.75,
+          "positives": 79,
+          "negatives": 79
+        },
+        "logistic_regression": {
+          "roc_auc": 0.5635314853388881,
+          "average_precision": 0.5673427132060035,
+          "precision_at_20": 0.7,
+          "positives": 79,
+          "negatives": 79
+        },
+        "graphsage": {
+          "roc_auc": 0.7578913635635315,
+          "average_precision": 0.7309107219112743,
+          "precision_at_20": 0.75,
+          "positives": 79,
+          "negatives": 79
+        }
+      }
+    }
+  ],
+  "summary": {
+    "common_neighbors": {
+      "roc_auc": {
+        "mean": 0.6014239128131316,
+        "std": 0.018650342135746543
+      },
+      "average_precision": {
+        "mean": 0.582694852320095,
+        "std": 0.022487400545914617
+      },
+      "precision_at_20": {
+        "mean": 0.8300000000000001,
+        "std": 0.05099019513592784
+      }
+    },
+    "jaccard": {
+      "roc_auc": {
+        "mean": 0.6021351178726333,
+        "std": 0.018845315031178037
+      },
+      "average_precision": {
+        "mean": 0.5900169984503802,
+        "std": 0.02779767928634375
+      },
+      "precision_at_20": {
+        "mean": 0.8099999999999999,
+        "std": 0.037416573867739396
+      }
+    },
+    "adamic_adar": {
+      "roc_auc": {
+        "mean": 0.6022607741735426,
+        "std": 0.018711709320401813
+      },
+      "average_precision": {
+        "mean": 0.5854893018817398,
+        "std": 0.02382971628557083
+      },
+      "precision_at_20": {
+        "mean": 0.85,
+        "std": 0.05477225575051661
+      }
+    },
+    "logistic_regression": {
+      "roc_auc": {
+        "mean": 0.5957581928434008,
+        "std": 0.05044729663143261
+      },
+      "average_precision": {
+        "mean": 0.6151094657498913,
+        "std": 0.05759568172444879
+      },
+      "precision_at_20": {
+        "mean": 0.74,
+        "std": 0.10198039027185572
+      }
+    },
+    "graphsage": {
+      "roc_auc": {
+        "mean": 0.7278988692210336,
+        "std": 0.02178740467323471
+      },
+      "average_precision": {
+        "mean": 0.698252996607593,
+        "std": 0.02863521082893691
+      },
+      "precision_at_20": {
+        "mean": 0.75,
+        "std": 0.05477225575051661
+      }
+    }
+  }
+}

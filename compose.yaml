@@ -1,0 +1,49 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: weave
+      POSTGRES_USER: weave
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Run python scripts/configure_docker.py first}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U weave -d weave"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  init:
+    build: .
+    user: "0:0"
+    command: ["python", "scripts/bootstrap.py"]
+    environment: &environment
+      DATABASE_URL: postgresql+psycopg://weave:${DB_PASSWORD}@db:5432/weave
+      AUTH_FILE: /app/secrets/users.json
+    volumes:
+      - ./secrets:/app/secrets
+    depends_on:
+      db:
+        condition: service_healthy
+  api:
+    build: .
+    user: "${LOCAL_UID:-10001}:${LOCAL_GID:-10001}"
+    command: ["python", "-m", "uvicorn", "app.main:create_app", "--factory", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+    environment: *environment
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./secrets:/app/secrets:ro
+    depends_on:
+      init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+  worker:
+    build: .
+    command: ["python", "-m", "app.worker"]
+    environment: *environment
+    depends_on:
+      init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+volumes:
+  pgdata:

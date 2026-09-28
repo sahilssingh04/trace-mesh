@@ -1,0 +1,199 @@
+{
+  "scope": "Synthetic temporal interaction benchmark; not criminal-risk prediction",
+  "split": "days 0\u201313 train; days 14\u201319 test; no learned parameters",
+  "negative_semantics": "Unobserved within test horizon, not proven nonexistent relationships",
+  "runs": [
+    {
+      "seed": 7,
+      "events": 466,
+      "train_pairs": 232,
+      "future_pairs": 136,
+      "new_future_pairs": 70,
+      "results": {
+        "never_observed/common_neighbors": {
+          "precision_at_20": 0.9,
+          "positive_count": 136,
+          "negative_count": 136,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "never_observed/edge_memory": {
+          "precision_at_20": 1.0,
+          "positive_count": 136,
+          "negative_count": 136,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/common_neighbors": {
+          "precision_at_20": 0.8,
+          "positive_count": 136,
+          "negative_count": 136,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/edge_memory": {
+          "precision_at_20": 0.4,
+          "positive_count": 136,
+          "negative_count": 136,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        }
+      }
+    },
+    {
+      "seed": 17,
+      "events": 475,
+      "train_pairs": 215,
+      "future_pairs": 143,
+      "new_future_pairs": 72,
+      "results": {
+        "never_observed/common_neighbors": {
+          "precision_at_20": 1.0,
+          "positive_count": 143,
+          "negative_count": 143,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "never_observed/edge_memory": {
+          "precision_at_20": 1.0,
+          "positive_count": 143,
+          "negative_count": 143,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/common_neighbors": {
+          "precision_at_20": 0.45,
+          "positive_count": 143,
+          "negative_count": 143,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/edge_memory": {
+          "precision_at_20": 0.45,
+          "positive_count": 143,
+          "negative_count": 143,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        }
+      }
+    },
+    {
+      "seed": 27,
+      "events": 450,
+      "train_pairs": 218,
+      "future_pairs": 122,
+      "new_future_pairs": 63,
+      "results": {
+        "never_observed/common_neighbors": {
+          "precision_at_20": 0.9,
+          "positive_count": 122,
+          "negative_count": 122,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "never_observed/edge_memory": {
+          "precision_at_20": 1.0,
+          "positive_count": 122,
+          "negative_count": 122,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/common_neighbors": {
+          "precision_at_20": 0.55,
+          "positive_count": 122,
+          "negative_count": 122,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/edge_memory": {
+          "precision_at_20": 0.45,
+          "positive_count": 122,
+          "negative_count": 122,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        }
+      }
+    },
+    {
+      "seed": 37,
+      "events": 463,
+      "train_pairs": 226,
+      "future_pairs": 121,
+      "new_future_pairs": 59,
+      "results": {
+        "never_observed/common_neighbors": {
+          "precision_at_20": 1.0,
+          "positive_count": 121,
+          "negative_count": 121,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "never_observed/edge_memory": {
+          "precision_at_20": 1.0,
+          "positive_count": 121,
+          "negative_count": 121,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/common_neighbors": {
+          "precision_at_20": 0.65,
+          "positive_count": 121,
+          "negative_count": 121,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/edge_memory": {
+          "precision_at_20": 0.2,
+          "positive_count": 121,
+          "negative_count": 121,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        }
+      }
+    },
+    {
+      "seed": 47,
+      "events": 464,
+      "train_pairs": 229,
+      "future_pairs": 120,
+      "new_future_pairs": 54,
+      "results": {
+        "never_observed/common_neighbors": {
+          "precision_at_20": 0.95,
+          "positive_count": 120,
+          "negative_count": 120,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "never_observed/edge_memory": {
+          "precision_at_20": 1.0,
+          "positive_count": 120,
+          "negative_count": 120,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/common_neighbors": {
+          "precision_at_20": 0.6,
+          "positive_count": 120,
+          "negative_count": 120,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        },
+        "historical/edge_memory": {
+          "precision_at_20": 0.4,
+          "positive_count": 120,
+          "negative_count": 120,
+          "k": 20,
+          "candidate_prevalence": 0.5
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 0.03490638299990678,
+  "limitations": [
+    "Synthetic community generator favors common-neighbor heuristics.",
+    "No GNN trained or evaluated.",
+    "Candidate sampling affects precision; not full-population precision.",
+    "Thresholds and uncertainty calibration require independent real-domain labels."
+  ]
+}

@@ -1,0 +1,3 @@
+# Optional CPU/local NER experiment. Not required by the working default demo.
+transformers==4.51.3
+torch==2.7.0

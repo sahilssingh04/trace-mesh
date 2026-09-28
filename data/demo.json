@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "id": "guide-asha",
+      "label": "Asha (demo)",
+      "kind": "Person",
+      "attrs": {}
+    },
+    {
+      "id": "guide-ravi",
+      "label": "Ravi (demo)",
+      "kind": "Person",
+      "attrs": {}
+    },
+    {
+      "id": "guide-neel",
+      "label": "Neel (demo)",
+      "kind": "Person",
+      "attrs": {}
+    },
+    {
+      "id": "guide-mira",
+      "label": "Mira (demo)",
+      "kind": "Person",
+      "attrs": {}
+    }
+  ],
+  "sources": [
+    {
+      "id": "guide-s1",
+      "title": "Demo call record 1",
+      "text": "FICTIONAL DEMO: Asha called Neel on 2026-01-01."
+    },
+    {
+      "id": "guide-s2",
+      "title": "Demo call record 2",
+      "text": "FICTIONAL DEMO: Ravi called Neel on 2026-01-02."
+    },
+    {
+      "id": "guide-s3",
+      "title": "Demo call record 3",
+      "text": "FICTIONAL DEMO: Asha called Mira on 2026-01-03."
+    },
+    {
+      "id": "guide-s4",
+      "title": "Demo call record 4",
+      "text": "FICTIONAL DEMO: Ravi called Mira on 2026-01-04."
+    }
+  ],
+  "edges": [
+    {
+      "id": "guide-e1",
+      "source": "guide-asha",
+      "target": "guide-neel",
+      "relation": "called",
+      "source_id": "guide-s1",
+      "excerpt": "FICTIONAL DEMO: Asha called Neel on 2026-01-01.",
+      "occurred_at": "2026-01-01",
+      "polarity": "asserted"
+    },
+    {
+      "id": "guide-e2",
+      "source": "guide-ravi",
+      "target": "guide-neel",
+      "relation": "called",
+      "source_id": "guide-s2",
+      "excerpt": "FICTIONAL DEMO: Ravi called Neel on 2026-01-02.",
+      "occurred_at": "2026-01-02",
+      "polarity": "asserted"
+    },
+    {
+      "id": "guide-e3",
+      "source": "guide-asha",
+      "target": "guide-mira",
+      "relation": "called",
+      "source_id": "guide-s3",
+      "excerpt": "FICTIONAL DEMO: Asha called Mira on 2026-01-03.",
+      "occurred_at": "2026-01-03",
+      "polarity": "asserted"
+    },
+    {
+      "id": "guide-e4",
+      "source": "guide-ravi",
+      "target": "guide-mira",
+      "relation": "called",
+      "source_id": "guide-s4",
+      "excerpt": "FICTIONAL DEMO: Ravi called Mira on 2026-01-04.",
+      "occurred_at": "2026-01-04",
+      "polarity": "asserted"
+    }
+  ]
+}
